@@ -1,0 +1,32 @@
+.row {
+    margin: 2px
+}
+
+/* .container {
+    margin: 1px;
+} */
+.col {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    max-width: 1200px;
+}
+
+.orange {
+    background-color: rgb(167, 110, 5);
+}
+
+#resultsContainer {
+    min-height: 350px;
+}
+
+#forecastCard {
+    min-height: 200px;
+}
+
+.bg-lightgray {
+    background-color: rgba(226, 226, 226, 0.932);
+}

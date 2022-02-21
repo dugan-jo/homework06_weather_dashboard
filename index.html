@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Weather App</title>
+
+</head>
+
+<body>
+  <header class="container bg-info rounded">
+    <div class="row justify-content-md-center" id='header'>
+      <h1 class="text-light font-weight-bold p-2 m-1">WEATHER DASHBOARD</h1>
+    </div>
+  </header>
+  <main>
+    <div class="container container.custom">
+      <div class="row">
+        <div class="col-4 bg-lightgray my-1 m-right-1 rounded">
+          <h4 class="row">Search for a City:</h4>
+          <div class="row by-3 align-items-center">
+            <div class="input-group">
+              <button id="submit" onKeyPress='submit' type="submit" class="col-4 mx-1 btn btn-sm btn-info">SEARCH</button>
+              <input id='input-text' type="text" class="text-capitalize col-8 form-text text-muted inputValue form-control"
+                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+          </div>
+          <div class="row">
+            <table class="table table-borderless">
+              <thead id="tbody">
+                <tr>
+                  <!-- LOCAL STORAGE BUTTONS POPULATE HERE - - - - - - - - - - - - --> 
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>    
+      <div class="col col.custom">
+        <div class="container" id='resultsContainer'>
+          <div class="mx-1" id='infoBox'>
+            <h3 class="text-left my-2" id="cityId"></h3>
+            <p class="text-left my-0" id="currentDate"></p><img id="weatherIcon">
+            <p class="text-left my-0" id="tempId"></p>
+            <p class="text-left my-0" id="windId"></p>
+            <p class="text-left my-0" id="humidityId"></p>
+            <p class="text-left my-0" id="uvId"></p>
+            <br>
+          
+            <h6 class="text-left my-0 text-uppercase" id="descriptionId"></h6>
+      </div>
+    </div>
+    <div class="container border rounded border-bottom-0" id="forecastBox container">
+      <div class="row" id="forecastTitle">
+        <h4>5-DAY FORECAST</h4>
+      </div>
+      <div class="row d-flex justify-content-between" id="forecastCard">
+          <!-- THIS IS WHERE THE FIVE-DAY FORECAST POPULATES  - - - - - - - - - - - - - - - -->
+        </div>
+      </div>
+    </div>
+</div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+
+</html>
