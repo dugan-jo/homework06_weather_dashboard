@@ -89,4 +89,5 @@ You are required to submit BOTH of the following for review:
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 # homework06_weather_dashboard
-# homework06_weather_dashboard
+<img width="1314" alt="Screen Shot 2022-02-22 at 8 35 18 PM" src="https://user-images.githubusercontent.com/75266984/155257817-432df324-27dd-45bb-8c06-f6afc80b7ed9.png">
+
